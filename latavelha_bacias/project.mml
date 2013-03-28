@@ -1,0 +1,71 @@
+{
+  "bounds": [
+    -59.1504,
+    -36.8093,
+    -22.2363,
+    10.0554
+  ],
+  "center": [
+    -38.4961,
+    -13.3255,
+    5
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "baciasmar",
+    "template_teaser": "<div class=\"bacia\">\n<h3>Bacia</h3>\n<p>{{NOME}}</p>\n</div>"
+  },
+  "minzoom": 5,
+  "maxzoom": 11,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -53.368878158999905,
+        -35.972331313999916,
+        -25.999627594999936,
+        7.047560219000047
+      ],
+      "id": "baciasmar",
+      "class": "",
+      "Datasource": {
+        "file": "/home/miguelpeixe/Dropbox/Geodata/BACIAS_MAR.shp",
+        "encoding": "LATIN1"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {
+        "encoding": "LATIN1"
+      },
+      "name": "baciasmar"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ],
+      "id": "10madmin0countries",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "10madmin0countries"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Lata Velha Bacias",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}

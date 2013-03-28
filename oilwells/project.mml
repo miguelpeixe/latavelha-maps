@@ -1,0 +1,58 @@
+{
+  "bounds": [
+    -52.3608,
+    -31.9894,
+    -30.3003,
+    -14.1792
+  ],
+  "center": [
+    -41.3086,
+    -24.9263,
+    4
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "oilwells",
+    "template_teaser": "<h5>Bacia</h5>\n<p>{{{BACIA}}}</p>\n<h5>Tipo de poço</h5>\n<p>{{{TIPO}}}</p>\n<h5>Resultado</h5>\n<p>{{{RESULTADO}}}</p>",
+    "fields": [
+      "BACIA",
+      "TIPO",
+      "RESULTADO"
+    ]
+  },
+  "minzoom": 4,
+  "maxzoom": 11,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "point",
+      "extent": [
+        -46.83582278,
+        -27.13641833,
+        -38.97475639,
+        -19.53885639
+      ],
+      "id": "oilwells",
+      "class": "",
+      "Datasource": {
+        "file": "/home/miguelpeixe/Downloads/oilwells - Plan1.csv",
+        "id": "oilwells",
+        "project": "oilwells",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "oilwells"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Oil Wells",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}

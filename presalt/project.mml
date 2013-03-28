@@ -1,0 +1,56 @@
+{
+  "bounds": [
+    -48.5925,
+    -29.4779,
+    -35.9583,
+    -18.1459
+  ],
+  "center": [
+    -41.9238,
+    -24.1267,
+    4
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "presal",
+    "template_teaser": "<h3>Pré-sal</h3>\n<span style=\"display:none;\">{{{NOME}}}</span>",
+    "fields": [
+      "NOME"
+    ]
+  },
+  "minzoom": 4,
+  "maxzoom": 11,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -45.74289968894781,
+        -26.905219111381278,
+        -38.9850434833243,
+        -20.733799941944437
+      ],
+      "id": "presal",
+      "class": "",
+      "Datasource": {
+        "file": "/home/miguelpeixe/devel/greenpeace/latavelha/map/presal/Pre_sal.shp",
+        "id": "presal",
+        "project": "presalt",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "presal"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "Presalt",
+  "description": "",
+  "attribution": "",
+  "legend": ""
+}
