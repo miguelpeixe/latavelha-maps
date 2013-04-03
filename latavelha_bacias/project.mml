@@ -13,7 +13,10 @@
   "format": "png",
   "interactivity": {
     "layer": "baciasmar",
-    "template_teaser": "<div class=\"bacia\">\n<h3>Bacia</h3>\n<p>{{NOME}}</p>\n</div>"
+    "template_teaser": "<div class=\"bacia\">\n<h3>Bacia</h3>\n<p>{{NOME}}</p>\n</div>",
+    "fields": [
+      "NOME"
+    ]
   },
   "minzoom": 5,
   "maxzoom": 11,
@@ -33,7 +36,7 @@
       "id": "baciasmar",
       "class": "",
       "Datasource": {
-        "file": "/home/miguelpeixe/Dropbox/Geodata/BACIAS_MAR.shp",
+        "file": "source/bacias/BACIAS_MAR.shp",
         "encoding": "LATIN1"
       },
       "srs-name": "autodetect",
@@ -42,24 +45,6 @@
         "encoding": "LATIN1"
       },
       "name": "baciasmar"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -179.99978348919961,
-        -85.051,
-        180,
-        83.63381093402975
-      ],
-      "id": "10madmin0countries",
-      "class": "",
-      "Datasource": {
-        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {},
-      "name": "10madmin0countries"
     }
   ],
   "scale": 1,

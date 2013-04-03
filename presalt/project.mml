@@ -36,7 +36,7 @@
       "id": "presal",
       "class": "",
       "Datasource": {
-        "file": "/home/miguelpeixe/devel/greenpeace/latavelha/map/presal/Pre_sal.shp",
+        "file": "source/presalt/Pre_sal.shp",
         "id": "presal",
         "project": "presalt",
         "srs": ""

@@ -38,7 +38,7 @@
       "id": "oilwells",
       "class": "",
       "Datasource": {
-        "file": "/home/miguelpeixe/Downloads/oilwells - Plan1.csv",
+        "file": "source/Pocos_10012013.csv",
         "id": "oilwells",
         "project": "oilwells",
         "srs": ""

@@ -40,7 +40,7 @@
       "id": "municipiosbr",
       "class": "",
       "Datasource": {
-        "file": "/home/miguelpeixe/devel/maps/shapefiles/municipios_br2.shp",
+        "file": "source/municipios/municipios_br2.shp",
         "id": "municipiosbr",
         "project": "latavelha_cities",
         "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",

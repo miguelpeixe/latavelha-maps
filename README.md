@@ -21,3 +21,9 @@ How-to
 ------
 
 Upload all directories to TileMill project directory. Usually on ~/Documents/MapBox/project
+
+
+Data sources
+------------
+
+Local data sources for each project are located at `source` directory, inside the project directory

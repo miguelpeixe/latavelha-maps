@@ -85,54 +85,6 @@
       "srs": "",
       "advanced": {},
       "name": "10mbathymetry"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -53.368878158999905,
-        -35.972331313999916,
-        -25.999627594999936,
-        7.047560219000047
-      ],
-      "id": "baciasmar",
-      "class": "",
-      "Datasource": {
-        "file": "/home/miguelpeixe/Dropbox/Geodata/BACIAS_MAR.shp",
-        "id": "baciasmar",
-        "project": "latavelha_bg",
-        "srs": "",
-        "encoding": "LATIN1"
-      },
-      "srs-name": "autodetect",
-      "srs": "",
-      "advanced": {
-        "encoding": "LATIN1"
-      },
-      "name": "baciasmar"
-    },
-    {
-      "geometry": "polygon",
-      "extent": [
-        -73.990944,
-        -33.750862,
-        -32.378887,
-        5.2722249
-      ],
-      "id": "municipiosbr",
-      "class": "",
-      "Datasource": {
-        "file": "/home/miguelpeixe/devel/maps/shapefiles/municipios_br.shp",
-        "id": "municipiosbr",
-        "project": "latavelha_bg",
-        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
-        "encoding": "utf-8"
-      },
-      "srs-name": "WGS84",
-      "srs": "+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs",
-      "advanced": {
-        "encoding": "utf-8"
-      },
-      "name": "municipiosbr"
     }
   ],
   "scale": 1,
